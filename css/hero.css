@@ -4,8 +4,13 @@
 
 .hero-image {
     text-align: center;
+
 }
 
+.hero-image img{
+    max-width: 100%;
+    object-fit: contain;
+}
 .hero-description {
     display: flex;
     flex-direction: column;
