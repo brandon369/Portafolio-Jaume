@@ -1,56 +1,44 @@
 .testimony {
-    padding-block-start: 40px;
-    padding-block-end: 40px;
-}
-
-.testimony-description {
+    margin-block: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    padding-block: 24px;
+    padding-inline: 24px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-}
-
-.testimony-image img {
-
-    max-inline-size: 100%;
+    gap: 24px;
 
 }
 
+.testimony-message {
+    font: var(--body3);
+    max-inline-size: 970px;
+    margin-block: 0;
 
-.testimony-title {
-    /*margin-inline-start: 4px;*/
-    background: var(--purple);
-    align-self: flex-start;
-    color: var(--white);
-    font: var(--headline5);
-    padding-block-start: 4px;
-    padding-block-end: 4px;
-    padding-inline-start: 8px;
-    padding-inline-end: 8px;
-    text-decoration: none;
-    box-shadow: -4px 4px 0 #FFFFFF;
+
 }
+
+.testimony-author {
+    max-inline-size: 970px;
+    margin-block: 0;
+    font: var(--caption);
+}
+
 
 @media screen and (min-width: 768px) {
-    .testimony {
-        gap: 32px;
-        display: flex;
-        align-items: center;
-        /*padding: 80px;*/
-        padding-block-start: 80px;
-        padding-block-end: 80px;
+
+    .testimony{
+        margin-block: 80px;
     }
 
-    .testimony-description, .testimony-image {
-        flex: 1;
-    }
+    .testimony-message {
+        font-size: 34px;
+        line-height: 50px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
 
-    .testimony-image {
-        text-align: center;
-    }
 
-    .testimony:nth-child(odd) .testimony-image {
-        /*flex-direction: row-reverse;*/
-        order: 2;
     }
-
 }
