@@ -5,6 +5,8 @@
 @import "./wrapper.css";
 @import "project.css";
 @import "testimony.css";
+@import "footer.css";
+@import "social.css";
 
 :root {
     --gradien: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
@@ -30,6 +32,7 @@ body {
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
+    margin: 0;
 }
 
 
