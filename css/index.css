@@ -8,6 +8,7 @@
 @import "footer.css";
 @import "social.css";
 @import "form.css";
+@import "info.css";
 
 :root {
     --gradien: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
@@ -49,4 +50,11 @@ body {
     padding-inline-end: 8px;
     text-decoration: none;
     box-shadow: -4px 4px 0 #FFFFFF;
+}
+
+.arrow-down{
+    block-size: 80px;
+    inline-size: 80px;
+    background: url("./../images/arrow-down.svg") center center no-repeat;
+    background-size: contain;
 }

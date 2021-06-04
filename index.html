@@ -9,24 +9,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
 <header class="header">
-<div class="wrapper">
-<div class="header-content">
-  <img src="./images/LOGO.png" alt="Logo" width="70" height="20"/>
-  <nav class="menu" aria-label="main-navigation">
-    <ul>
-      <li><a class="is-active" href="#main">Hola</a></li>
-      <li><a href="#projects">Proyectos</a></li>
-      <li><a href="#contact">Hablemos</a></li>
-    </ul>
-  </nav>
-  <button class="button"> Currículum</button>
-</div>
-</div>
+  <div class="wrapper">
+    <div class="header-content">
+      <img src="./images/LOGO.png" alt="Logo" width="70" height="20"/>
+      <nav class="menu" aria-label="main-navigation">
+        <ul>
+          <li><a class="is-active" href="#main">Hola</a></li>
+          <li><a href="#projects" >Proyectos</a></li>
+          <li><a href="#contact">Hablemos</a></li>
+        </ul>
+      </nav>
+      <button class="button"> Currículum</button>
+    </div>
+  </div>
 </header>
 
 <div class="wrapper">
@@ -55,7 +55,18 @@
   
   </section id>
   
-  <section class="project">
+  <section class="info">
+    <p>
+      A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
+    </p>
+    <p>
+      Aquí hay algunos que me gustaría compartir.
+    </p>
+    <a class="arrow-down" href="#projects"></a>
+  
+  </section>
+  
+  <section class="project" id="projects">
     <div class="project-image">
       <img src="./images/leonidasesteban.png">
     </div>
@@ -146,7 +157,7 @@
   
   </section>
   
-  <form method="get" class="form">
+  <form method="get" class="form" id="contact">
     <h2 class="title">Hablemos</h2>
     <p class="form-paragraph">
       Si está interesado en trabajar conmigo en su próximo proyecto,
@@ -167,7 +178,7 @@
       <textarea required type="text" id="message" name="message" cols="30" rows="7"></textarea>
     </div>
     <button class="button" type="submit">Enviar mensaje</button>
-  </form>
+  </form id=>
   
   <footer class="footer">
     <div class="footer-logo">
